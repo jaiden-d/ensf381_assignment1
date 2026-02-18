@@ -98,3 +98,31 @@ input[type=submit]{
 
 
 
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.summary table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff8ee;
+    margin-bottom: 10px;
+}
+.summary th, td{
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: left;
+}
+.summary button{
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
