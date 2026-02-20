@@ -126,3 +126,132 @@ input[type=submit]{
     border: none;
     margin: 10px;
 }
+
+.menu-view {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px 10px 50px;
+}
+
+.season-dropdown {
+    text-align: center;
+    align-items: center;
+    background-color: #fff8ee;
+    border: 2px solid #e4b48c;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+}
+
+.flavors {
+    text-align: center;
+    align-items: center;
+    background-color: #fff8ee;
+    border: 2px solid #e4b48c;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+}
+
+.tile {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 20px solid #e4b48c;
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.tile img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.order-button {
+    display: inline-block;
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.add-button {
+    display: inline-block;
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.remove-button {
+    display: inline-block;
+    background-color: #c94c4c;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.add-button:hover {
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    cursor: pointer;
+}
+
+.customize-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.order-form {
+    text-align: center;
+}
+
+.customize-order img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.submit-select {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    background-color: #f28c8c;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px 8px;
+    border: none;
+}
+
+.finish-button {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    background-color: #f28c8c;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px 8px;
+    border: none;
+}
+
+.submit-select:hover {
+    cursor: pointer;
+}
+
+.finish-button:hover {
+    cursor: pointer;
+}
